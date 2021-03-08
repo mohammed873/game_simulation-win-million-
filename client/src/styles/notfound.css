@@ -1,0 +1,23 @@
+.notfound_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #edf5e4;
+}
+.error_number{
+    font-size: 143px;
+    font-family: monospace;
+    color: darkgoldenrod;
+}
+
+.not_fount_btn{
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+    background-color: darkred;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}

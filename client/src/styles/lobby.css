@@ -1,0 +1,26 @@
+.lobby_container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: auto;
+    background-image: url(https://jooinn.com/images/abstract-background-278.jpg);
+}
+.lobby{
+    width: 50%;
+    border-radius: 12px;
+    padding: 1%;
+    margin: auto;
+    text-align: center;
+    background-color: #000000c2;
+    color: white;
+}
+.lobby_container h1{
+    font-family: cursive;
+}
+.palyers_container{
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+}

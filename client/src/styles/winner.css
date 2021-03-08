@@ -1,0 +1,36 @@
+.winner_container{
+    height: 100vh;
+    display: flex;
+    background-color: aliceblue;
+    background-image: url(https://www.proclub.com/src/assets/images/Services/SERVICES_H_GIFTCARDS_4K_043020.jpg);
+}
+
+.winner{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    background-color: #3d3d5f59;
+    color: white;
+    padding: 1%;  
+}
+.winnerName{
+    font-size: 48px;
+    font-family: fantasy;
+    color: yellow;
+    margin-top: -123px;
+}
+.score{
+    color: black;
+}
+.winner button{
+    font-size: 18px;
+    font-weight: 600;
+    background-color: black;
+    color: white;
+    padding: 3%;
+    cursor: pointer;
+    outline: none;
+}

@@ -1,0 +1,29 @@
+.login_container{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left_section{
+    width: 60%;
+    height: 100vh;
+    background-color: blue;
+} 
+.left_section img{
+    height: 100%;
+}
+.right_section{
+    width: 40%;
+    display: flex;
+   align-items: center;
+    height: 100vh;
+    background-color: white;
+}
+.right_section .formcontainer{
+    width: 95%;
+    margin: auto;
+}
+.title{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

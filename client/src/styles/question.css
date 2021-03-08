@@ -1,0 +1,35 @@
+.container{
+    display: flex;
+    height: 100vh;
+}
+.question_container{
+    background-color: aliceblue;
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 1%;
+}
+.question_container h1{
+    background-color: black;
+    color: white;
+    padding: 1%;
+    border-radius: 10px;
+}
+.possible_answer_container{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.possible_answer_container input{
+    background-color: tomato;
+    padding: 2%;
+    font-size: 27px;
+    font-family: cursive;
+    color: white;
+    width: 41%;
+    border: navajowhite;
+    margin-top: 28px;
+    text-align: center;
+    cursor: pointer;
+}
